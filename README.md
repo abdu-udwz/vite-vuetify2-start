@@ -13,7 +13,7 @@ Vuetify 2 development made easy with the power of Vite. This template should hel
 ## Try it now
 
 ### GitHub Template
-[Create a repo from this template on GitHub](https://github.com/abdu-udwz/vite-vuetify2-start/generate).
+[Create a repo from this template on GitHub](https://github.com/abdu-udwz/vite-vuetify2-starter/generate).
 
 ### Using [`degit`](https://github.com/Rich-Harris/degit)
 
@@ -52,7 +52,7 @@ You can learn more on Vuetify's SASS variables on [this page](https://vuetifyjs.
 > * Using custom SASS variables will increase the page load time in development mode. And currently it seems to be VERY slow.
 >
 > * Custom variables support is enabled even if the the file `variables.sass/scss` is empty.
-> * This start template tries to replace Vuetify's webpack plugin [vuetify-loader](https://github.com/vuetifyjs/vuetify-loader) which is the package responsable for loading styles in the tradition webpack-based dev tool. 
+> * This starter template tries to replace Vuetify's webpack plugin [vuetify-loader](https://github.com/vuetifyjs/vuetify-loader) which is the package responsable for loading styles in the tradition webpack-based dev tool. 
 
 ## What next?
 
