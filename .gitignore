@@ -3,3 +3,5 @@ node_modules
 dist
 dist-ssr
 *.local
+# ignore rollup-plugin-visualizer stat
+stats.html
