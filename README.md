@@ -13,7 +13,7 @@ Vuetify 2 development made easy with the power of Vite. This template should hel
 ## Try it now
 
 ### GitHub Template
-[Create a repo from this template on GitHub]().
+[Create a repo from this template on GitHub](https://github.com/abdu-udwz/vite-vuetify2-start/generate).
 
 ### Using [`degit`](https://github.com/Rich-Harris/degit)
 
