@@ -3,7 +3,7 @@ import { createVuePlugin } from 'vite-plugin-vue2'
 import components from 'unplugin-vue-components/vite'
 import { VuetifyResolver } from 'unplugin-vue-components/resolvers'
 
-import visualizer from 'rollup-plugin-visualizer'
+import Inspect from 'vite-plugin-inspect'
 
 import path from 'path'
 import fs from 'fs'
@@ -21,8 +21,6 @@ if (fs.existsSync(path.resolve(ABS_ROOT_DIR, 'styles/variables.scss'))) {
   scssAdditionalData = '\n@import \'@/styles/variables.scss\'\n'
 }
 
-// console.log(sassAdditionalData, scssAdditionalData)
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -32,13 +30,7 @@ export default defineConfig({
         VuetifyResolver(),
       ],
     }),
-    {
-      ...visualizer({
-        open: true,
-        gzipSize: true,
-      }),
-      apply: 'build',
-    },
+    Inspect(),
   ],
   resolve: {
     alias: {
